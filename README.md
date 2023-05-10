@@ -75,8 +75,20 @@ The comparison between MDP-based and search-based algorithms is shown below:
 Follow the below steps to run the project:
 
 
-Open the unzipped folder and launch Terminal/Powershell inside the folder.
+ - Open the unzipped folder and launch Terminal/Powershell inside the folder.
+
 `cd path/to/unzipped/folder`
 
-Install the requirements by installing the packages in requirement.txt file using the below command.
+ - Install the requirements by installing the packages in requirement.txt file using the below command.
+
 'pip install -r requirements.txt'
+
+ - After installation of all the packages, open your python interpreter by using the command below.
+ 
+ 'python'
+ Note: if the above command for launching python interpreter does not work, please check your python version or try 'py' or 'python3'
+ 
+ - Import the maze.py file by using the below command.
+ 
+ 'import maze'
+
