@@ -86,6 +86,7 @@ Follow the below steps to run the project:
  - After installation of all the packages, open your python interpreter by using the command below.
  
  `python`
+ 
  Note: if the above command for launching python interpreter does not work, please check your python version or try 'py' or 'python3'
  
  - Import the maze.py file by using the below command.
@@ -95,22 +96,34 @@ Follow the below steps to run the project:
  - To run all the search and mdp algorithms use the following command.
 
  `maze.run_maze_ai(5, 15, 'all')`
+ 
  Note: The first argument in run_maze_ai method specifies the number of rows, second argument specifies the number of columns, and the third argument specifies the algorithm to run. Here are the list of options which can be used:
  
- 'maze.run_maze_ai(5, 15, 'dfs') #Runs DFS Algorithm on maze consisting of 5 rows and 15 columns
-
-maze.run_maze_ai(5, 15, 'bfs') #Runs BFS Algorithm on maze consisting of 5 rows and 15 columns
-
-maze.run_maze_ai(5, 15, 'astar') #Runs A-STAR Algorithm on maze consisting of 5 rows and 15 columns
-
-maze.run_maze_ai(5, 15, 'value_iteration') #Runs Value Iteration Algorithm on maze consisting of 5 rows and 15 columns
-
-maze.run_maze_ai(5, 15, 'policy_iteration') #Runs Policy Iteration Algorithm on maze consisting of 5 rows and 15 columns
-'
+ #Runs DFS Algorithm on maze consisting of 5 rows and 15 columns
  
+ `maze.run_maze_ai(5, 15, 'dfs')` 
+
+#Runs BFS Algorithm on maze consisting of 5 rows and 15 columns
+
+`maze.run_maze_ai(5, 15, 'bfs')`
+
+#Runs A-STAR Algorithm on maze consisting of 5 rows and 15 columns
+
+`maze.run_maze_ai(5, 15, 'astar')`
+
+#Runs Value Iteration Algorithm on maze consisting of 5 rows and 15 columns
+
+`maze.run_maze_ai(5, 15, 'value_iteration')`
+
+#Runs Policy Iteration Algorithm on maze consisting of 5 rows and 15 columns
+
+`maze.run_maze_ai(5, 15, 'policy_iteration') `
+
  
  - To check the memory used by the algorithms, run the below function with the same list of arguments and options mentioned in STEP - 5. For example:
  
- `maze.maze_memory_usage(5, 15, 'dfs') #It outputs the current memory and peak memory used to execute the DFS algorithm on maze consisting of 5 rows and 15 columns
-`
+ #It outputs the current memory and peak memory used to execute the DFS algorithm on maze consisting of 5 rows and 15 columns
+ 
+ `maze.maze_memory_usage(5, 15, 'dfs')`
+
 
