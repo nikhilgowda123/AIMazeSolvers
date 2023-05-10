@@ -122,7 +122,7 @@ Follow the below steps to run the project:
  
  6. To check the memory used by the algorithms, run the below function with the same list of arguments and options mentioned in STEP - 5. For example:
  
-     - It outputs the current memory and peak memory used to execute the DFS algorithm on maze consisting of 5 rows and 15 columns
+     -It outputs the current memory and peak memory used to execute the DFS algorithm on maze consisting of 5 rows and 15 columns
  
      `maze.maze_memory_usage(5, 15, 'dfs')`
 
