@@ -75,55 +75,55 @@ The comparison between MDP-based and search-based algorithms is shown below:
 Follow the below steps to run the project:
 
 
- - Open the unzipped folder and launch Terminal/Powershell inside the folder.
+ 1. Open the unzipped folder and launch Terminal/Powershell inside the folder.
 
 `cd path/to/unzipped/folder`
 
- - Install the requirements by installing the packages in requirement.txt file using the below command.
+ 2. Install the requirements by installing the packages in requirement.txt file using the below command.
 
 `pip install -r requirements.txt`
 
- - After installation of all the packages, open your python interpreter by using the command below.
+ 3. After installation of all the packages, open your python interpreter by using the command below.
  
  `python`
  
- Note: if the above command for launching python interpreter does not work, please check your python version or try 'py' or 'python3'
+      Note: if the above command for launching python interpreter does not work, please check your python version or try 'py' or 'python3'
  
- - Import the maze.py file by using the below command.
+ 4. Import the maze.py file by using the below command.
  
  `import maze`
  
- - To run all the search and mdp algorithms use the following command.
+ 5. To run all the search and mdp algorithms use the following command.
 
  `maze.run_maze_ai(5, 15, 'all')`
  
- Note: The first argument in run_maze_ai method specifies the number of rows, second argument specifies the number of columns, and the third argument specifies the algorithm to run. Here are the list of options which can be used:
+      Note: The first argument in run_maze_ai method specifies the number of rows, second argument specifies the number of columns, and      the third argument specifies the algorithm to run. Here are the list of options which can be used:
  
- #Runs DFS Algorithm on maze consisting of 5 rows and 15 columns
+      - Runs DFS Algorithm on maze consisting of 5 rows and 15 columns
  
- `maze.run_maze_ai(5, 15, 'dfs')` 
+     `maze.run_maze_ai(5, 15, 'dfs')` 
 
-#Runs BFS Algorithm on maze consisting of 5 rows and 15 columns
+      - Runs BFS Algorithm on maze consisting of 5 rows and 15 columns
 
-`maze.run_maze_ai(5, 15, 'bfs')`
+     `maze.run_maze_ai(5, 15, 'bfs')`
 
-#Runs A-STAR Algorithm on maze consisting of 5 rows and 15 columns
+      - Runs A-STAR Algorithm on maze consisting of 5 rows and 15 columns
 
-`maze.run_maze_ai(5, 15, 'astar')`
+     `maze.run_maze_ai(5, 15, 'astar')`
 
-#Runs Value Iteration Algorithm on maze consisting of 5 rows and 15 columns
+      - Runs Value Iteration Algorithm on maze consisting of 5 rows and 15 columns
 
-`maze.run_maze_ai(5, 15, 'value_iteration')`
+     `maze.run_maze_ai(5, 15, 'value_iteration')`
 
-#Runs Policy Iteration Algorithm on maze consisting of 5 rows and 15 columns
+      - Runs Policy Iteration Algorithm on maze consisting of 5 rows and 15 columns
 
-`maze.run_maze_ai(5, 15, 'policy_iteration') `
+     `maze.run_maze_ai(5, 15, 'policy_iteration') `
 
  
- - To check the memory used by the algorithms, run the below function with the same list of arguments and options mentioned in STEP - 5. For example:
+ 6. To check the memory used by the algorithms, run the below function with the same list of arguments and options mentioned in STEP - 5. For example:
  
- #It outputs the current memory and peak memory used to execute the DFS algorithm on maze consisting of 5 rows and 15 columns
+     - It outputs the current memory and peak memory used to execute the DFS algorithm on maze consisting of 5 rows and 15 columns
  
- `maze.maze_memory_usage(5, 15, 'dfs')`
+     `maze.maze_memory_usage(5, 15, 'dfs')`
 
 
