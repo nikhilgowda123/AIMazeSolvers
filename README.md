@@ -69,3 +69,14 @@ The comparison between MDP-based and search-based algorithms is shown below:
 | Policy Iteration | 5x15  | 26.0             | 102.0               |
 | Policy Iteration | 15x5  | 20.0             | 102.0               |
 | Policy Iteration | 30x30 | 231.0            | 1453.0              |
+
+## Steps to Run the Project ##
+
+Follow the below steps to run the project:
+
+
+Open the unzipped folder and launch Terminal/Powershell inside the folder.
+`cd path/to/unzipped/folder`
+
+Install the requirements by installing the packages in requirement.txt file using the below command.
+'pip install -r requirements.txt'
