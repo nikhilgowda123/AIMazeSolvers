@@ -1,5 +1,11 @@
 # AIMazeSolvers #
 
+![Screenshot](dfs.png)
+![Screenshot](bfs.png)
+![Screenshot](astar.png)
+![Screenshot](value.png)
+![Screenshot](policy.png)
+
 This project contains a Python implementation for solving mazes of varying sizes. The project has five algorithms for solving mazes, three of which are search-based algorithms (BFS, DFS, and A*) and two are MDP-based algorithms (value iteration and policy iteration). The performance of these algorithms is compared and analyzed using various metrics on three different sizes of mazes.
 
 ## Maze Generation ##
